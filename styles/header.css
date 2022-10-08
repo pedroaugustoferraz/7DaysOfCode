@@ -1,0 +1,44 @@
+.cabecalho{
+    padding: 1.75em 7em;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.container__titulo{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 0.5em;
+}
+
+.opções{
+    display: flex;
+    margin-left: 7.5em;
+}
+
+.opções__login{
+    display: flex;
+}
+
+.opções__link{
+    text-decoration: none;
+    color: var(--cinza-claro);
+    margin-right: 2em;
+    font-weight: 500;
+}
+
+.botão__cadastrar{
+    margin-right: 0;
+    background: var(--vermelho-vinho);
+    border-radius: 10px;
+    padding: 10px 18px;
+    color: var(--cor-de-fundo);
+}
